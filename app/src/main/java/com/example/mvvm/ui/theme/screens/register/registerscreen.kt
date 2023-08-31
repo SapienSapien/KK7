@@ -26,7 +26,7 @@ import androidx.navigation.NavHostController
 @ExperimentalMaterial3Api
 @Composable
 
-fun register(navController: NavHostController){
+fun registerscreen(navController: NavHostController){
     var register by remember{ mutableStateOf(TextFieldValue("")) }
     var pass by remember{ mutableStateOf(TextFieldValue("")) }
 
